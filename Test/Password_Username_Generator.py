@@ -20,5 +20,4 @@ def password_generator(user_name):
 
 print(username_generator("Frank", "Verrill"))
 username = username_generator("Frank", "Verrill")
-
 print(password_generator(username))
