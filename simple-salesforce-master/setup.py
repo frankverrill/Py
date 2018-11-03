@@ -1,5 +1,5 @@
 """Simple-Salesforce Package Setup"""
-
+# commit 1
 from setuptools import setup
 import textwrap
 import sys
@@ -30,7 +30,7 @@ setup(
     author_email=about['__author_email__'],
     maintainer=about['__maintainer__'],
     maintainer_email=about['__maintainer_email__'],
-    packages=['simple_salesforce',],
+    packages=['simple_salesforce', ],
     url=about['__url__'],
     license=about['__license__'],
     description=about['__description__'],
@@ -44,7 +44,7 @@ setup(
         'pytz>=2014.1.1',
         'responses>=0.5.1',
     ] + pyver_tests_require,
-    test_suite = 'nose.collector',
+    test_suite='nose.collector',
 
     keywords=about['__keywords__'],
     classifiers=[
